@@ -46,7 +46,7 @@ void showjpeg(FILE *fp, double ffector, int xmove, int ymove)
 
     int offset;
     p = buf;
-    fprintf(stderr, "jpg : Line %d ymove = %d, ans = %d\n", __LINE__, ymove);
+    //fprintf(stderr, "jpg : Line %d ymove = %d, ans = %d\n", __LINE__, ymove);
     if (x >= y)
     {
         for (h = 0; h < 480; h++)
